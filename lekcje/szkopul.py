@@ -23,16 +23,16 @@
 # Jedyny wiersz danych zawiera liczbę całkowitą n (1 ≤ n ≤ 200).
 # Wyjście
 # Program powinien wypisać szachownicę o wielkości n. 
-def draw_chessboard(n):
-	for i in range(n):
-		row = ''
-		for j in range(n):
-			if (i + j) % 2 == 0:
-				row += '1'
-			else:
-				row += '0'
-		print(row)
-print(draw_chessboard(6))
+# def draw_chessboard(n):
+# 	for i in range(n):
+# 		row = ''
+# 		for j in range(n):
+# 			if (i + j) % 2 == 0:
+# 				row += '1'
+# 			else:
+# 				row += '0'
+# 		print(row)
+# print(draw_chessboard(6))
 
 
 
